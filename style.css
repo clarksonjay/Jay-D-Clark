@@ -183,10 +183,9 @@ button.btn:hover{
 
 .new{
  margin-top: 50px;
- margin-left: 100px;
 }
 
-.new p{
+.new span{
  font-size: 14px;
  font-weight: 100;
  color: rgba(95, 86, 86, 0.85);
@@ -196,7 +195,29 @@ button.btn:hover{
  color: rgb(171, 38, 86);
  font-weight: 600;
  text-decoration: none;
+ display: flex;
+ flex-direction: row-reverse;
+ margin-right: 120px;
 }
-@media(max-width:720px){
+@media(max-width:1199px){
+ #banner{
+  left: -55%;
+ }
+
+ #main{
+  margin-left: 0;
+ }
+ 
+ .coat-of-arm{
+  position: relative;
+  bottom: 40px;
+  left: 175px;
+ }
+
+ .new a{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 0;
+ }
 
 }
